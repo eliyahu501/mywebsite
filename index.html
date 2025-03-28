@@ -1,9 +1,51 @@
-<html>
-  <body>
-    <h1>"hello, my name is eliyahu!"</h1>
-    <p>"click on my name to see something interesting!!!"</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliyahu's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Eliyahu's Website</h1>
+        <p>I like coding and building cool stuff.</p>
+        <button onclick="showMessage()">Click Me!</button>
+    </div>
     <script>
-      alert("hello, totty!!");
+        function showMessage() {
+            alert('Keep coding and creating awesome things!\n       Eliyahu');
+        }
     </script>
-  </body>
+</body>
 </html>
+

@@ -52,9 +52,26 @@
         button:hover {
             background-color: #0056b3;
         }
+        .info-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #FFDD57;
+            color: #333;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            z-index: 2;
+        }
+        .info-btn:hover {
+            background-color: #ffbf00;
+        }
     </style>
 </head>
 <body>
+    <button class="info-btn" onclick="showInfo()">Info</button>
     <div class="diagonal-strip"></div>
     <div class="container">
         <h1>Welcome to Eliyahu's Website</h1>
@@ -64,6 +81,9 @@
     <script>
         function showMessage() {
             alert('Keep coding and creating awesome things!');
+        }
+        function showInfo() {
+            alert('This website was created by Eliyahu Vogel through AI.');
         }
     </script>
 </body>

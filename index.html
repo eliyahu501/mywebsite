@@ -74,16 +74,22 @@
     <button class="info-btn" onclick="showInfo()">Info</button>
     <div class="diagonal-strip"></div>
     <div class="container">
-        <h1>Welcome to Eliyahu's Website</h1>
-        <p>I like coding and building cool stuff.</p>
+        <h1 onclick="showHiddenMessage2()">Welcome to Eliyahu's Website</h1>
+        <p onclick="showHiddenMessage()">I like coding and building cool stuff.</p>
         <button onclick="showMessage()">Click Me!</button>
     </div>
     <script>
         function showMessage() {
-            alert('Keep coding and creating awesome things!');
+            alert('Hello! Keep coding and creating awesome things!');
         }
         function showInfo() {
             alert('This website was created by Eliyahu Vogel through AI.');
+        }
+        function showHiddenMessage(){
+            alert('you found the secret message')
+        }
+        function showHiddenMessage2() {
+            alert('hello!!')
         }
     </script>
 </body>

@@ -73,13 +73,12 @@
 <body>
     <div class="diagonal-strip"></div>
     <button class="file-btn" onclick="openTextFile()">Open text.txt</button>
-    <div class="container">
-        <h1>Welcome to Eliyahu's Website</h1>
-        <p>I like coding and building cool stuff.</p>
-        <button onclick="showMessage()">Click Me!</button>
-        <h1 onclick="showHiddenMessage2()">Welcome to Eliyahu's Website</h1>
-        <p onclick="showHiddenMessage()">I like coding and building cool stuff.</p>
-    </div>
+<div class="container">
+    <h1 onclick="showHiddenMessage2()">Welcome to Eliyahu's Website</h1>
+    <p onclick="showHiddenMessage()">I like coding and building cool stuff.</p>
+    <button onclick="showMessage()">Click Me!</button>
+</div>
+
     <script>
         function showMessage() {
             alert('Hello! Keep coding and creating awesome things!');
